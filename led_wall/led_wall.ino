@@ -23,7 +23,7 @@ WiFiUDP Udp;
 
 void connectToWifi() {
     WiFi.mode(WIFI_STA);
-    WiFi.begin("SSID", "s3cr3t");
+    WiFi.begin(SSID, PASS);
 
     Serial.println();
     Serial.println();
