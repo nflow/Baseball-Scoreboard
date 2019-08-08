@@ -69,7 +69,7 @@ public enum BasicFont {
     NUMBER_SEVEN(new boolean[][] { { true, true, true, true }, { false, false, false, true },
             { false, false, true, false }, { false, true, false, false }, { true, false, false, false }, }),
     NUMBER_EIGHT(new boolean[][] { { false, true, true, false }, { true, false, false, true },
-            { true, true, true, true }, { true, false, false, true }, { false, true, true, false }, }),
+            { false, true, true, false }, { true, false, false, true }, { false, true, true, false }, }),
     NUMBER_NINE(new boolean[][] { { false, true, true, false }, { true, false, false, true },
             { true, true, true, true }, { false, false, false, true }, { false, true, true, false }, }),
     NUMBER_ZERO(new boolean[][] { { false, true, true, false }, { true, false, false, true },
